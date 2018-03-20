@@ -1,3 +1,4 @@
 today i'm working
 today is sunnyday
 git news
+Creating a new branch is quick.
