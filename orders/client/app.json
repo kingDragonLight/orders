@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/pay/pay",
+    "pages/menu/menu",
+    "pages/address/address",
+    "pages/card/card",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/halladdress/halladdress",
+    "pages/addCgi/addCgi",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "鹏讯合和平台",
+    "navigationBarTextStyle":"black"
+  }
+}
