@@ -1,0 +1,11 @@
+<!--pages/details/details.wxml-->
+<view class='img'>
+  <!-- <image></image> -->
+  产品图片
+</view>
+<view class='product_name'>{{foods.name}}</view>
+<view class='price_number'>
+  <view class='price'><span>￥</span>{{foods.price}}</view>
+  <view class='number'></view>
+</view>
+<view class='product_detail'></view>

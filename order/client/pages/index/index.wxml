@@ -1,0 +1,38 @@
+<view class='head'>
+<view class='head-left'>登陆后，订单完成可自动积分</view>
+<view class='head-right'><text>注册|登录</text><image src='../../images/sure.png'></image></view>
+</view>
+<view class='adv'>广告留位</view>
+<view class='foods'>
+  <view class='order' style='border-color:#f5a933' bindtap='scan'>
+    <view class='box' style='background:#f5a933'>扫码点餐</view>
+  </view>
+  <view class='order' style='border-color:#82de37'>
+    <navigator url='../menu/menu'>
+      <view class='box' style='background:#82de37'>外卖点餐</view>
+    </navigator>
+  </view>
+</view>  
+<view class='list'>
+  <view>
+    <view class='logo'><image src='../../images/list.png' style='width:66rpx;height:96rpx;margin-top:2rpx;'></image></view>
+    <view class='names'>我的订单</view>
+    <view class='click'>
+      <navigator url='../order/order'>查看订单<view class='leader'><image src='../../images/lead.png'></image></view></navigator>
+      </view>
+  </view>
+   <view>
+    <view class='logo'><image src='../../images/user.png' style='width:70rpx;height:86rpx;margin-top:7rpx;'></image></view> 
+    <view class='names'>个人中心</view>
+    <view class='click'>
+      <navigator url='../card/card'>查看设置<view class='leader'><image src='../../images/lead.png'></image></view></navigator>
+    </view>
+  </view>
+   <view>
+    <view class='logo'><image src='../../images/reduce.png' style='width:82rpx;height:84rpx;margin-top:8rpx;'></image></view> 
+    <view class='names'>优惠券</view>
+    <view class='click'>
+      <navigator url='../card/card'>查看优惠券<view class='leader'><image src='../../images/lead.png'></image></view></navigator>
+    </view>
+  </view>
+</view>
